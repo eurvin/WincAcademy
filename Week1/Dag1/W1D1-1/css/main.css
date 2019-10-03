@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+html {
+  font-family: 'Lato', helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.global_container {
+  display: block;
+  margin: 0 auto;
+  width: 320px;
+}
+
+@media only screen and (min-width: 660px) {
+  .global_container {
+    width: 660px;
+  }
+}
+
+.achtuur {
+  font-family: 'Fira Sans', helvetica, sans-serif;
+}
+
+.negenuur {
+  font-family: 'Lato', helvetica, sans-serif;
+}
+
+.contactCard {
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+  border: 1px solid #EEEEEE;
+  border-radius: 5px;
+
+}
+
+.negenuur .contactCard {
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+  border: 1px solid #C1C1C1;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px #C1C1C1;
+}
+
+.mugshot {
+  float: right;
+  display: inline;
+  margin: 0;
+}
+
+.contactDetails {
+  margin: 15px;
+}
+
+.requestDetails {
+  margin: 0 15px;
+}
+
+.approve {
+  display: flex;
+  margin: auto;
+  border-top: 1px solid #f2f2f2;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  margin: 0 0 5px 0;
+}
+
+.connection {
+  margin: 0px 0;
+  color: #BABABA;
+  font-weight:normal;
+}
+
+.requestContent {
+  color: #666666;
+  font-size: 14px;
+}
+
+.approve {
+  // margin: 15px 0px;
+}
+
+.accept {
+  margin: 10px 0 10px 15px;
+  width: 50%;
+  height: 37px;
+  color: #2CC154;
+  border-color: #2CC154;
+  border-radius: 5px 0 0 5px;
+  border-right: 0;
+  font-size: 14px;
+}
+
+.accept:hover, .accept:active, .accept:focus {
+  color: #FFFFFF;
+  background: #2CC154;
+}
+
+.decline {
+  margin: 10px 15px 10px 0;
+  width: 50%;
+  height: 37px;
+  color: red;
+  border-color: red;
+  border-radius: 0 5px 5px 0;
+  font-size: 14px;
+}
+
+.decline:hover, .decline:active, .decline:focus {
+  color: #FFFFFF;
+  background: red;
+}
