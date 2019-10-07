@@ -24,7 +24,5 @@ console.log(['Canada', 'France','Germany','Italy','Japan','United Kingdom','Unit
 // - In een array met integers. Schrijf een JavaScript functie die alle integers retourneert onder de 100.
 console.log([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28, 11, 77, 84, 98, 101, 206, 234].filter(getal => getal < 100 ));
 
-// In een array met integers. Schrijf een JavaScript functie die alle integers retourneert onder de 100.
-
 // In een array met integers. Schrijf een JavaScript functie die alle integers bij elkaar optelt en **enkel het totaal** van de som retourneert.
 console.log([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28, 11, 77, 84, 98, 101, 206, 234].reduce((total, current) => total += current, 0));
