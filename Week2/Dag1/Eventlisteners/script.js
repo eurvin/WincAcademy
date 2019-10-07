@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', function(event) {
   });
 
   // hover over div => log console
-  const divHover = document.querySelector('div').addEventListener('mouseover', function() {
+  const div = document.querySelector('div').addEventListener('mouseover', function() {
     console.log('hover');
   });
 
   // put random number in button
-  const randomNumberButton = document.querySelector('BUTTON').addEventListener('click', function() {
+  const button = document.querySelector('BUTTON').addEventListener('click', function() {
     this.innerHTML = Math.round(Math.random() * 100);
   });
 
