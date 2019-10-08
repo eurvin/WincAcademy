@@ -139,8 +139,19 @@ console.log(superheroesTotalWeightMarvel);
 const superheroesFatBasterd = superheroes.filter(hero => hero.weight != "unknown").sort((a,b) => a.weight - b.weight);
 console.log(superheroesFatBasterd[superheroesFatBasterd.length-1]);
 
+// // Bonus: vind de zwaarste superheld redcer!
+const superheroesFatBasterd2 = superheroes.filter(hero => hero.weight != "unknown")
+.reduce((accumulator, currentValue) => {
+  if(Number(accumulator.weight) < Number(currentValue.weight)){
+    return currentValue
+  } else {
+    return accumulator
+  }
+});
+console.log(superheroesFatBasterd2);
 
-// met function declarations
+
+// met function expressions
 // Maak een array van alle superhelden namen
 const superheroesNamesFun = function(superheroes) {
   return superheroes.map(hero => hero = hero.name);
@@ -165,7 +176,7 @@ const superheroesFirstAppearanceFun = function(superheroes) {
 }
 console.log(superheroesFirstAppearanceFun(superheroes));
 
-Maak een array met alle superhelden van DC Comics en een array met alle superhelden van Marvel Comics
+// Maak een array met alle superhelden van DC Comics en een array met alle superhelden van Marvel Comics
 const superheroesDCComicsFun = function(superheroes) {
   return superheroes.filter(hero => hero.publisher == 'DC Comics');
 }
@@ -197,15 +208,18 @@ const superheroesFatBasterdFun = function(superheroes) {
 }
 console.log(superheroesFatBasterdFun(superheroes)[superheroesFatBasterdFun(superheroes).length - 1]);
 
-  const superheroesFatBasterdFun2 = function(superheroes) {
-    return superheroes.filter(hero => hero.weight != "unknown")
-    .reduce((accumulator, currentValue) => {
-      if(Number(accumulator.weight) < Number(currentValue.weight)){
-        return currentValue
-      } else {
-        return accumulator
-      }
-    })};
+// Bonus: vind de zwaarste superheld! met reducer
+
+const superheroesFatBasterdFun2 = function(superheroes) {
+  return superheroes.filter(hero => hero.weight != "unknown")
+  .reduce((accumulator, currentValue) => {
+    if(Number(accumulator.weight) < Number(currentValue.weight)){
+      return currentValue
+    } else {
+      return accumulator
+    }
+  })
+};
   
 
 console.log(superheroesFatBasterdFun2(superheroes));
