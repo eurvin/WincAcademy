@@ -1,0 +1,39 @@
+#Opdracht wireframing
+
+* voorbeeld 
+	* Tweakers https://tweakers.net/pricewatch/
+
+Informatie over plantwater
+Behoefte aan extra informatie over zon, voeding etc.
+< mag maar 
+
+Logo huisstijl
+
+* functies:
+	* ::Extra verzorging::
+	* Goed verzorging
+* 
+Zoekbalk
+
+Foto & teksten
+	Databas met foto’s > moet zichtbaar. Netjes
+
+Hoeveelheid tekst
+
+Zoekbalk: Goed te zien want dat is het meest belangrijk
+* Beeldmateriaal waar op de pagina moet komen.
+
+* Wat denkt opdrachtgever dat belangrijk is voor de klant visueel en qua ervaring
+* Speciale ideeën:
+	* Mobile first
+* Beperkingen /nogo’s:
+	* Niet te complex, zoeken en informatie helder. 
+	* Geen social knoppen (onzin)
+
+Doelgroep: Breed tussen de 20-70
+Boven de 50 daarom simpel.  Makkelijk toegankelijk
+Hoeveelheid water en verzorgingstips
+Zon voedingsstoffen, Goed of niet goed.
+
+## Link naar Balsamiq:
+[Balsamiq Cloud](https://balsamiq.cloud/s98jdb0/pl6ldxo/r82D6/b3477)
