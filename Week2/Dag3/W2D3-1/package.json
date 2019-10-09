@@ -1,0 +1,16 @@
+{
+  "name": "w2d3-1",
+  "version": "1.0.0",
+  "description": "test jest",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "test",
+    "jest",
+    "js"
+  ],
+  "author": "Eurvin Morman",
+  "license": "ISC"
+}
