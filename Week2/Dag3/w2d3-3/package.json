@@ -1,0 +1,11 @@
+{
+  "name": "w2d3-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Password-Verifier.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Eurvin Morman",
+  "license": "ISC"
+}
