@@ -27,7 +27,7 @@ test("Verify Password: *[A-Z]", function() {
 });
 
 test("Verify Password: *[a-z]", function() {
-    const password = 'PASSWORD!';
+    const password = 'PASSW0RD!';
     const expected = "password should have one lowercase letter at least";
     // password should have one lowercase letter at least
     const output = passwordVerifier(password);
@@ -44,11 +44,11 @@ test("Verify Password: [0-9]", function() {
     expect(output).toMatch(expected);
 });
 
-// test("Verify Password: true >= 3", function() {
-//     const password = 'pssword';
-//     const expected = "is not good enough";
-//     // password should have one number at least
-//     const output = passwordVerifier(password);
-//     console.log(output);
-//     expect(output).toMatch(expected);
-// });
+test("Verify Password: true >= 3", function() {
+    const password = '!0$&^%#@$&!^%@!';
+    const expected = "is not good enough";
+    // password should have one number at least
+    const output = passwordVerifier(password);
+    console.log(output);
+    expect(output).toMatch(expected);
+});

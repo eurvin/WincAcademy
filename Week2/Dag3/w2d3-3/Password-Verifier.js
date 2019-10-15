@@ -26,20 +26,25 @@ const getPasswordVerifier = function(password) {
            return pw = "password should have one number at least";
         } else { return pwOk++ };
     };
+    let totalCheck = () => {
+        if(pwOk >= 3) {
+            pw = "seems good enough";
+        } else {
+            pwOk = "is not good enough";
+        }
+    };
 
     if(password == null) {
         notNull();
     } else {
+        pwOk++;
         chars8();
         upperCase();
         lowerCase();
-        number()
+        number();
+        totalCheck();
     };
-    if (pwOk >= 3) {
-        console.log(pwOk + ' seems good enough');
-    } else {
-        return console.log(pwOk + ' is not good enough');
-    }
+
     return pw;
 };
 
