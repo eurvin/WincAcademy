@@ -1,0 +1,60 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: #f5da42;
+    color: #FFF;
+  }
+  
+  .mainContent {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .siteTitle {
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+  .radioButtons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+  
+  .movies {
+    display: flex;
+        flex-wrap: wrap;
+  }
+  .movieCard {
+    display: flex;
+    width: 150px;
+    margin: 6px;
+    flex-wrap: wrap;
+  }
+  
+  .movieCard > a {
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movieCard > a > img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #222;
+  }
+  
+  h5 {
+    display: block;
+    margin: 5px;
+  }
+  
