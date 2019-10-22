@@ -3,33 +3,32 @@ html {
   }
   
   body {
-    margin: 0;
+    margin: ;
     padding: 0;
-    background: #f5da42;
-    color: #FFF;
+    background: #ffffff;
+    color: #000000;
   }
   
   .mainContent {
     display: block;
-    margin: 0 auto;
-    width: 90%;
+    margin: 50px auto;
+    width: 60%;
+    border: 1px solid #f58442;
+    border-radius: 10px;
+    box-shadow: 1px 4px 4px #222;
   }
   .siteTitle {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
   }
-  .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5px;
-  }
-  .radioButtons {
-    display: flex;
-    flex-wrap: wrap;
+  .pokemonButton {
     margin: 5px;
   }
   
   .movies {
-    display: flex;
+    display: Pokemon;
         flex-wrap: wrap;
   }
   .movieCard {
