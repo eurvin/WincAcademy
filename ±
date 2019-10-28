@@ -1,0 +1,21 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	deleted:    ReactBurger/react-complete-guide/.gitignore
+#	deleted:    ReactBurger/react-complete-guide/README.md
+#	deleted:    ReactBurger/react-complete-guide/package-lock.json
+#	deleted:    ReactBurger/react-complete-guide/package.json
+#	deleted:    ReactBurger/react-complete-guide/public/favicon.ico
+#	deleted:    ReactBurger/react-complete-guide/public/index.html
+#	deleted:    ReactBurger/react-complete-guide/public/manifest.json
+#	deleted:    ReactBurger/react-complete-guide/src/App.css
+#	deleted:    ReactBurger/react-complete-guide/src/App.js
+#	deleted:    ReactBurger/react-complete-guide/src/App.test.js
+#	deleted:    ReactBurger/react-complete-guide/src/index.css
+#	deleted:    ReactBurger/react-complete-guide/src/index.js
+#	deleted:    ReactBurger/react-complete-guide/src/logo.svg
+#	deleted:    ReactBurger/react-complete-guide/src/registerServiceWorker.js
+#
