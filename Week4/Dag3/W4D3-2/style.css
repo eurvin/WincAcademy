@@ -1,0 +1,21 @@
+a {
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+.lichtblauw:hover {
+	color: lightblue;
+}
+
+.rood:active {
+	color: red;
+}
+
+.geel:visited {
+	color: yellow;
+}
+
+.paars:focus {
+	color: purple;
+}

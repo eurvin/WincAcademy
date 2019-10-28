@@ -1,0 +1,19 @@
+{
+  "name": "wincacademy",
+  "version": "1.0.0",
+  "description": "Winc Academy Workspace",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eurvin/WincAcademy.git"
+  },
+  "author": "Eurvin Morman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eurvin/WincAcademy/issues"
+  },
+  "homepage": "https://github.com/eurvin/WincAcademy#readme"
+}
